@@ -4,7 +4,7 @@
 // Agar yahan kuch na likhein to app bina account ke (sirf phone mein) chalegi.
 
 const String supabaseUrl = 'https://ntjtlmjxrrqgrwdxkjxo.supabase.co';
-const String supabaseAnonKey = 'sb_publishable_R7vvL2-kvJ5EOIBDT0mUMA_SlNIdysJ';
+const String supabaseAnonKey = 'sb_publishable_R7vvL2-kvJ5EOIBDT0mUMA_SlNIdysJ;
 
 bool get supabaseConfigured =>
     supabaseUrl.startsWith('https://') && supabaseAnonKey.length > 20;
